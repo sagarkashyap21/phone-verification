@@ -1,13 +1,72 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+*{
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+body{
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+html{
+  font-size: 62.5%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+  /* border:2px solid red; */
+text-align: center;
+height: 100vh;
+padding-top: 10rem;
+}
+input{
+  width: 4rem;
+  margin: 1rem;
+  outline: none;
+  border: 0;
+  border-bottom: .2rem solid gray;
+  text-align: center;
+}
+
+.second{
+  /* border:2px solid green; */
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+
+}
+.second p{
+  width: fit-content;
+  /* padding: .3rem; */
+  font-size: 1.7rem;
+  color: rgb(36, 36, 158);
+}
+.s1{
+  margin-right: 12rem;
+}
+h1{
+  font-size: 3.5rem;
+}
+.p1{
+font-size: 2rem;
+margin: 1rem;
+color: gray;
+}
+
+button{
+  /* background-color: red; */
+  border: 0;
+  background-color: lightgreen;
+  color: white;
+  font-size: 1.9rem;
+  margin: 2rem;
+  padding: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 20rem;
+}
+
+@media screen and (max-width: 428px){
+html{
+  font-size: 55%;
+}
 }
