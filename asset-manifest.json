@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/phone-verification/static/css/main.116d8a05.css",
+    "main.js": "/phone-verification/static/js/main.3f552676.js",
+    "static/js/787.5f30233a.chunk.js": "/phone-verification/static/js/787.5f30233a.chunk.js",
+    "index.html": "/phone-verification/index.html",
+    "main.116d8a05.css.map": "/phone-verification/static/css/main.116d8a05.css.map",
+    "main.3f552676.js.map": "/phone-verification/static/js/main.3f552676.js.map",
+    "787.5f30233a.chunk.js.map": "/phone-verification/static/js/787.5f30233a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.116d8a05.css",
+    "static/js/main.3f552676.js"
+  ]
+}
